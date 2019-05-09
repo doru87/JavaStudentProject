@@ -48,7 +48,7 @@ public HashMap<String,Integer> getHashMap(){
         return hashmap;
 }
 
- public void afisareVarstStudenti(List<Student> list,Department depart){
+ public void afisareVarstaStudenti(List<Student> list,Department depart){
      String name = "";
      Double medie;
      HashMap<String,Integer> hash = null;
@@ -181,7 +181,7 @@ public HashMap<String,Integer> getHashMap(){
         Aplicatie apl = new Aplicatie();
         System.out.println("\n" +"-------------Afisarea varstei studentilor pe baza interogarii bazei de date-------------"+ "\n");
         
-        apl.afisareVarstStudenti(list,dep);
+        apl.afisareVarstaStudenti(list,dep);
         
         System.out.println("\n" +"----------------------Lista studentilor admisi-----------------------"+ "\n");
        
