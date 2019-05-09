@@ -7,10 +7,6 @@ package aplicatie;
 
 import java.util.Comparator;
 
-/**
- *
- * @author John
- */
 public class Student { 
     String name; 
     double medie ; 
